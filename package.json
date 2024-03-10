@@ -1,0 +1,29 @@
+{
+    "name": "turtle-poker-algo",
+    "version": "1.0.0",
+    "description": "A TurtlePokerAlgorithms",
+    "main": "./dist/index.js",
+    "scripts": {
+        "test": "echo See directory sources/tests",
+        "clean": "rm -rf dist",
+        "lint": "tslint --project tslint.json"
+    },
+    "keywords": [
+        "poker",
+        "algorithms",
+        "game"
+    ],
+    "author": "celomoth",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/celomoth/turtle-poker-algo.git"
+    },
+    "types": "./dist/index.d.ts",
+    "typings": "./dist/index.d.ts",
+    "dependencies": {
+        "node": "^10.1.0",
+        "save": "^2.3.2",
+        "typescript": "next"
+    }
+}
